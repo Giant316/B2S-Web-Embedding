@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Back to School 🤩</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js "
+    ></script>
+  </head>
+  <body>
+    <h1>Back to School Embedding Project 🦖</h1>
+    <div>
+      <button id="exportPDF">Export PDF 🙉</button>
+      <button id="exportPPT">Export Power Point 🤠</button>
+    </div>
+    <hr />
+    <!-- this create a line divider-->
+    <h2>Filters</h2>
+    <input type="number" placeholder="Min Value" id="minValue" />
+    <input type="number" placeholder="Max Value" id="maxValue" />
+    <button id="FilterButton">Filter</button>
+    <div id="vizContainer">
+      <!-- This is where we shall put the Tableau dashboard -->
+    </div>
+    <script src="./app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY="
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
